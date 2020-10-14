@@ -6,12 +6,16 @@
 !*.yaml
 !.gitignore
 !*.md
-!custom_components
+!custom_components/
 !themes
 !www
 
 # Ignore folders/files
-custom_components/hacs/
+home-assistant_v2.db-shm
+home-assistant_v2.db-wal
+custom_components/**/*.pyc
+manifest.json
+abodepy_cache.pickle
 .storage/
 .cloud/
 .google.token
