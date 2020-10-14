@@ -1,0 +1,33 @@
+# .gitignore file for config dir. 
+# A * ensures that everything will be ignored. 
+
+*
+
+# Whitelist files/folders. THESE WILL NOT BE IGNORED.
+!*.yaml
+!.gitignore
+!*.md
+!custom_components/
+!themes/
+
+
+# Ignore folders/files
+custom_components/hacs/
+.storage/
+.cloud/
+.google.token
+.git/
+tts/
+www/custom_ui/profile-icons/*.png
+secrets.yaml
+*.log
+*.xml
+*.db
+*.sqlite
+OZW_Log.txt
+harmony_harmony_hub.conf
+known_devices.yaml
+.ps4-games.2CCC4499EFF8_7ea8.json
+ip_bans.yaml
+known_devices.yaml
+
