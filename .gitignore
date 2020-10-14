@@ -1,15 +1,14 @@
 # .gitignore file for config dir. 
 # A * ensures that everything will be ignored. 
 
-*
 
 # Whitelist files/folders. THESE WILL NOT BE IGNORED.
 !*.yaml
 !.gitignore
 !*.md
-!custom_components/
-!themes/
-
+!custom_components
+!themes
+!www
 
 # Ignore folders/files
 custom_components/hacs/
@@ -17,6 +16,7 @@ custom_components/hacs/
 .cloud/
 .google.token
 .git/
+.ssh/
 tts/
 www/custom_ui/profile-icons/*.png
 secrets.yaml
