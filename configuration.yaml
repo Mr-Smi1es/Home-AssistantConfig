@@ -1,6 +1,24 @@
 
+#################################################################
+## Home Assistant Core
+#################################################################
+
+homeassistant:
+  customize: !include  customize.yaml
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
+discovery:
+stream:
+logger:
+  default: warn
+http:
+  ip_ban_enabled: true
+
+#################################################################
+## Components
+#################################################################
+
+
 
 # Text to speech
 tts:
